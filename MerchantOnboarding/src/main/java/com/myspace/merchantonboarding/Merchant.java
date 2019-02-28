@@ -8,22 +8,25 @@ public class Merchant implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "unique entity number")
+	@org.kie.api.definition.type.Label("unique entity number")
 	private java.lang.String uen;
-	@org.kie.api.definition.type.Label(value = "ceo IC number")
+	@org.kie.api.definition.type.Label("ceo IC number")
 	private java.lang.String ceoIC;
-	@org.kie.api.definition.type.Label(value = "net income of the merchant")
+	@org.kie.api.definition.type.Label("net income of the merchant")
 	private java.math.BigDecimal netIncome;
-	@org.kie.api.definition.type.Label(value = "total deposit in the bank of the merchant")
+	@org.kie.api.definition.type.Label("total deposit in the bank of the merchant")
 	private java.math.BigDecimal totalDeposit;
-	@org.kie.api.definition.type.Label(value = "value added tax ID")
+	@org.kie.api.definition.type.Label("value added tax ID")
 	private java.lang.String vatID;
-	@org.kie.api.definition.type.Label(value = "number of merchant's employees")
+	@org.kie.api.definition.type.Label("number of merchant's employees")
 	private int numberOfEmployees;
-	@org.kie.api.definition.type.Label(value = "merchant company establish date")
+	@org.kie.api.definition.type.Label("merchant company establish date")
 	private java.util.Date dateOfEstablishment;
-	@org.kie.api.definition.type.Label(value = "registered location or city")
+	@org.kie.api.definition.type.Label("registered location or city")
 	private java.lang.String registeredLocation;
+
+	@org.kie.api.definition.type.Label(value = "Assessment Result")
+	private java.lang.String result;
 
 	public Merchant() {
 	}
@@ -92,11 +95,19 @@ public class Merchant implements java.io.Serializable {
 		this.registeredLocation = registeredLocation;
 	}
 
+	public java.lang.String getResult() {
+		return this.result;
+	}
+
+	public void setResult(java.lang.String result) {
+		this.result = result;
+	}
+
 	public Merchant(java.lang.String uen, java.lang.String ceoIC,
 			java.math.BigDecimal netIncome, java.math.BigDecimal totalDeposit,
 			java.lang.String vatID, int numberOfEmployees,
 			java.util.Date dateOfEstablishment,
-			java.lang.String registeredLocation) {
+			java.lang.String registeredLocation, java.lang.String result) {
 		this.uen = uen;
 		this.ceoIC = ceoIC;
 		this.netIncome = netIncome;
@@ -105,6 +116,7 @@ public class Merchant implements java.io.Serializable {
 		this.numberOfEmployees = numberOfEmployees;
 		this.dateOfEstablishment = dateOfEstablishment;
 		this.registeredLocation = registeredLocation;
+		this.result = result;
 	}
 
 }
