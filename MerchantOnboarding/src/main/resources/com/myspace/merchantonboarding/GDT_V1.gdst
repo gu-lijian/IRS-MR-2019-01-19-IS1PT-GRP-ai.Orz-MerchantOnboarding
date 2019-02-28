@@ -101,7 +101,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>registeredLocation</factField>
           <fieldType>String</fieldType>
-          <operator>not in</operator>
+          <operator>in</operator>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -201,7 +201,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>GDT_V1_RFG</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -254,7 +254,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>GDT_V1_RFG</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -311,7 +311,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>GDT_V1_RFG</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
