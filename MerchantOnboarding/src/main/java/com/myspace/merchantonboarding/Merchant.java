@@ -20,13 +20,23 @@ public class Merchant implements java.io.Serializable {
 	private java.lang.String vatID;
 	@org.kie.api.definition.type.Label("number of merchant's employees")
 	private int numberOfEmployees;
-	@org.kie.api.definition.type.Label("merchant company establish date")
-	private java.util.Date dateOfEstablishment;
 	@org.kie.api.definition.type.Label("registered location or city")
 	private java.lang.String registeredLocation;
 
-	@org.kie.api.definition.type.Label(value = "Assessment Result")
+	@org.kie.api.definition.type.Label("Assessment Result")
 	private java.lang.String result;
+
+	@org.kie.api.definition.type.Label("Financial Assessment Certainty Factor")
+	private java.lang.Double CFfinancial;
+
+	@org.kie.api.definition.type.Label("Operational Assessment Certainty Factor")
+	private java.lang.Double CFoperational;
+
+	@org.kie.api.definition.type.Label("Credibility Assessment Certainty Factor")
+	private java.lang.Double CFcredibility;
+
+	@org.kie.api.definition.type.Label(value = "merchant company establish year")
+	private java.lang.Integer yearOfEstablishment;
 
 	public Merchant() {
 	}
@@ -79,14 +89,6 @@ public class Merchant implements java.io.Serializable {
 		this.numberOfEmployees = numberOfEmployees;
 	}
 
-	public java.util.Date getDateOfEstablishment() {
-		return this.dateOfEstablishment;
-	}
-
-	public void setDateOfEstablishment(java.util.Date dateOfEstablishment) {
-		this.dateOfEstablishment = dateOfEstablishment;
-	}
-
 	public java.lang.String getRegisteredLocation() {
 		return this.registeredLocation;
 	}
@@ -103,20 +105,57 @@ public class Merchant implements java.io.Serializable {
 		this.result = result;
 	}
 
+	public java.lang.Double getCFfinancial() {
+		return this.CFfinancial;
+	}
+
+	public void setCFfinancial(java.lang.Double CFfinancial) {
+		this.CFfinancial = CFfinancial;
+	}
+
+	public java.lang.Double getCFoperational() {
+		return this.CFoperational;
+	}
+
+	public void setCFoperational(java.lang.Double CFoperational) {
+		this.CFoperational = CFoperational;
+	}
+
+	public java.lang.Double getCFcredibility() {
+		return this.CFcredibility;
+	}
+
+	public void setCFcredibility(java.lang.Double CFcredibility) {
+		this.CFcredibility = CFcredibility;
+	}
+
+	public java.lang.Integer getYearOfEstablishment() {
+		return this.yearOfEstablishment;
+	}
+
+	public void setYearOfEstablishment(java.lang.Integer yearOfEstablishment) {
+		this.yearOfEstablishment = yearOfEstablishment;
+	}
+
 	public Merchant(java.lang.String uen, java.lang.String ceoIC,
 			java.math.BigDecimal netIncome, java.math.BigDecimal totalDeposit,
 			java.lang.String vatID, int numberOfEmployees,
-			java.util.Date dateOfEstablishment,
-			java.lang.String registeredLocation, java.lang.String result) {
+			java.lang.String registeredLocation, java.lang.String result,
+			java.lang.Double CFfinancial, java.lang.Double CFoperational,
+			java.lang.Double CFcredibility,
+			java.lang.Integer yearOfEstablishment) {
 		this.uen = uen;
 		this.ceoIC = ceoIC;
 		this.netIncome = netIncome;
 		this.totalDeposit = totalDeposit;
 		this.vatID = vatID;
 		this.numberOfEmployees = numberOfEmployees;
-		this.dateOfEstablishment = dateOfEstablishment;
 		this.registeredLocation = registeredLocation;
 		this.result = result;
+		this.CFfinancial = CFfinancial;
+		this.CFoperational = CFoperational;
+		this.CFcredibility = CFcredibility;
+		this.yearOfEstablishment = yearOfEstablishment;
 	}
 
 }

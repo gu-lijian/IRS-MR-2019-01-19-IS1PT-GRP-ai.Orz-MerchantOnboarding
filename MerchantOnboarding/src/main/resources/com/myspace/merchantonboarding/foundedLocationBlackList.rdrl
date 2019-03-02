@@ -1,0 +1,12 @@
+package com.myspace.merchantonboarding;
+
+import java.lang.Number;
+
+rule "foundedLocationBlackList"
+	dialect "mvel"
+	ruleflow-group "foundedlocationblacklist"
+	when
+		mer : Merchant( registeredLocation in ( "Bahamas", "Botswana", "Cambodia", "Democratic People's Republic of Korea (DPRK)", "Ethiopia", "Ghana", "Iran", "Pakistan", "Serbia", "Sri Lanka", "Syria", "Trinidad and Tobago", "Tunisia", "Yemen" ) )
+	then
+		mer.setCFoperational( -1.0 );
+end
