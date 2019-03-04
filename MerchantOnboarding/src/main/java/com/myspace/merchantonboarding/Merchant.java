@@ -23,9 +23,6 @@ public class Merchant implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("registered location or city")
 	private java.lang.String registeredLocation;
 
-	@org.kie.api.definition.type.Label("Assessment Result")
-	private java.lang.String result;
-
 	@org.kie.api.definition.type.Label("Financial Assessment Certainty Factor")
 	private java.lang.Double CFfinancial;
 
@@ -35,7 +32,7 @@ public class Merchant implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Credibility Assessment Certainty Factor")
 	private java.lang.Double CFcredibility;
 
-	@org.kie.api.definition.type.Label(value = "merchant company establish year")
+	@org.kie.api.definition.type.Label("merchant company establish year")
 	private java.lang.Integer yearOfEstablishment;
 
 	public Merchant() {
@@ -97,14 +94,6 @@ public class Merchant implements java.io.Serializable {
 		this.registeredLocation = registeredLocation;
 	}
 
-	public java.lang.String getResult() {
-		return this.result;
-	}
-
-	public void setResult(java.lang.String result) {
-		this.result = result;
-	}
-
 	public java.lang.Double getCFfinancial() {
 		return this.CFfinancial;
 	}
@@ -140,9 +129,8 @@ public class Merchant implements java.io.Serializable {
 	public Merchant(java.lang.String uen, java.lang.String ceoIC,
 			java.math.BigDecimal netIncome, java.math.BigDecimal totalDeposit,
 			java.lang.String vatID, int numberOfEmployees,
-			java.lang.String registeredLocation, java.lang.String result,
-			java.lang.Double CFfinancial, java.lang.Double CFoperational,
-			java.lang.Double CFcredibility,
+			java.lang.String registeredLocation, java.lang.Double CFfinancial,
+			java.lang.Double CFoperational, java.lang.Double CFcredibility,
 			java.lang.Integer yearOfEstablishment) {
 		this.uen = uen;
 		this.ceoIC = ceoIC;
@@ -151,7 +139,6 @@ public class Merchant implements java.io.Serializable {
 		this.vatID = vatID;
 		this.numberOfEmployees = numberOfEmployees;
 		this.registeredLocation = registeredLocation;
-		this.result = result;
 		this.CFfinancial = CFfinancial;
 		this.CFoperational = CFoperational;
 		this.CFcredibility = CFcredibility;

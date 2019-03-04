@@ -6,7 +6,7 @@ rule "foundedLocationBlackList"
 	dialect "mvel"
 	ruleflow-group "foundedlocationblacklist"
 	when
-		mer : Merchant( registeredLocation in ( "Bahamas", "Botswana", "Cambodia", "Democratic People's Republic of Korea (DPRK)", "Ethiopia", "Ghana", "Iran", "Pakistan", "Serbia", "Sri Lanka", "Syria", "Trinidad and Tobago", "Tunisia", "Yemen" ) )
+		mer : Merchant( registeredLocation.trim().toLowerCase() in ( "bahamas", "botswana", "cambodia", "democratic people's republic of korea (dprk)", "ethiopia", "ghana", "iran", "pakistan", "serbia", "sri lanka", "syria", "trinidad and tobago", "tunisia", "yemen" ) )
 	then
 		mer.setCFoperational( -1.0 );
 end
