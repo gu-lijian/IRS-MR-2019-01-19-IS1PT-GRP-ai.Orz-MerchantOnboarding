@@ -20,17 +20,17 @@ machine reasoning group project
 
 ### [ 2 ] To run the back-end JBPM project on KIE server:
 
-> **Go to URL using web browser** http://localhost:8080/jbpm-console
+> Go to URL using web browser http://localhost:8080/jbpm-console
 
-> Login using username/password: wbadmin/wbadmin
+> Login using **username/password: wbadmin/wbadmin**
 
 > import project using git import from URL:https://github.com/gu-lijian/mr_groupproject.git
 
-> Deploy the MerchantOnborading Project, and make sure it is running with version 1.0.0
+> Deploy the MerchantOnborading Project, and make sure it is running with **version 1.0.0**
 
 ### [ 3 ] To run the front-end Python Project:
 
-> make sure django framework is available (pip install django)
+> make sure django framework is available **(pip install django)**
 
 > make a new directory, and start a command prompt at this directory
 
@@ -40,4 +40,4 @@ machine reasoning group project
 
 > run command: $ python manage.py runserver
 
-> **Go to URL using web browser** http://127.0.0.1:8000/
+> Go to URL using web browser http://127.0.0.1:8000/
