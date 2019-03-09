@@ -11,7 +11,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## Trustworthiness Validation Solution - Merchant Onboarding
 
-<img src="SystemCode/clips/static/hdb-bto.png"
+<img src="https://github.com/gu-lijian/mr_groupproject_web/blob/master/merchantapp/merchantonboarding/static/images/signup-bg.jpg"
      style="float: left; margin-right: 0px;" />
 
 ---
@@ -47,10 +47,6 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 `<Github File Link>` : <https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding/blob/master/User_Guide.pdf>
 
-### [ 1 ] To run the system using iss-vm
-
-<Github File Link> : https://github.com/gu-lijian/mr_groupproject/blob/master/User_Guide.pdf
-
 [ 1 ] To prepare the Virtual Machine Environment:
 download pre-built virtual machine from http://bit.ly/iss-vm
 
@@ -83,13 +79,6 @@ use cd command to go to /mr_groupproject_web/merchantapp
 run command: $ python manage.py runserver
 
 Go to URL using web browser http://127.0.0.1:8000/
-
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
-
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
-
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
