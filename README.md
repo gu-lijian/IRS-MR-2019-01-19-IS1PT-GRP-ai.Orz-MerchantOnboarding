@@ -1,10 +1,4 @@
-﻿### Workshop Project Submission : Github Repository & Zip File
-
-[Online editor for this README.md markdown file](https://pandao.github.io/editor.md/en.html "pandao")
-
----
-
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
+﻿### Group Project Submission : Github Repository & Zip File
 
 ---
 
@@ -39,81 +33,37 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 
 [![Merchant Onboarding](https://github.com/gu-lijian/mr_groupproject_web/blob/master/merchantapp/merchantonboarding/static/images/signup-bg.jpg)](https://youtu.be/RK7iJMMQQq8 "Merchant Onboarding")
 
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
-
+[![Merchant Onboarding Video Demo](https://github.com/gu-lijian/mr_groupproject_web/blob/master/merchantapp/merchantonboarding/static/images/signup-bg.jpg)](https://www.youtube.com/watch?v=RK7iJMMQQq8)
 ---
 ## SECTION 5 : USER GUIDE
 
-`<Github File Link>` : <https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding/blob/master/User_Guide.pdf>
+Please refer to the user guide documentation in this repository for:
 
-[ 1 ] To prepare the Virtual Machine Environment:
-download pre-built virtual machine from http://bit.ly/iss-vm
+* System Requirements
+* Steps on installation and deployment
+* Steps on running of the system demo
+* Test Scenarios
 
-start iss-vm
-
-open terminal in iss-vm
-
-start the Tool KIE 7.12 on desktop
-
-wait until KIE server successfully started up
-
-[ 2 ] To run the back-end JBPM project on KIE server:
-Go to URL using web browser http://localhost:8080/jbpm-console
-
-Login using username/password: wbadmin/wbadmin
-
-import project using git import from URL:https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding.git
-
-Deploy the MerchantOnborading Project, and make sure it is running with version 1.0.0
-
-[ 3 ] To run the front-end Python Project:
-make sure django framework is available (pip install django)
-
-make a new directory, and start a command prompt at this directory
-
-clone project from git clone URL:https://github.com/gu-lijian/mr_groupproject_web.git
-
-use cd command to go to /mr_groupproject_web/merchantapp
-
-run command: $ python manage.py runserver
-
-Go to URL using web browser http://127.0.0.1:8000/
+User Guide Download Link : <stub>
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`<Github File Link>` : <https://github.com/telescopeuser/Workshop-Project-Submission-Template/blob/master/ProjectReport/Project%20Report%20HDB-BTO.pdf>
+The Project Report can be downloaded from this repository. Direct Link can be found below.
 
-**Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- List of Abbreviations (if applicable)
-- References (if applicable)
+Project Report Download Link : <stub>
+
 
 ---
-## SECTION 7 : MISCELLANEOUS
+## SECTION 7 : Additional Documentation
 
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
+### CEOICBlackList-dataset-sample.xlsx
+* Sample of blacklist described in the report that can be used to load blacklist rules into KIE Rules Engine
 
----
+### Testing Data.xlsx
+* Testing Data that can be used in conjunction with the system demo
 
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
 
 ---
 
 **This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
-
-**Lecturer: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
-
-[![alt text](https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png "Let's check Sam' profile page")](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan)
-
-**zhan.gu@nus.edu.sg**
