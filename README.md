@@ -37,7 +37,7 @@ Our team: ai.Orz: comprising of 6 members: Dai Yirui, Dong Meirong, Gu Lijian, G
 ---
 ## SECTION 4 : VIDEO OF Merchant Onboarding Use Case Demo
 
-[![Merchant Onboarding](https://youtu.be/RK7iJMMQQq8 "Merchant Onboarding")
+[![Merchant Onboarding](https://github.com/gu-lijian/mr_groupproject_web/blob/master/merchantapp/merchantonboarding/static/images/signup-bg.jpg)](https://youtu.be/RK7iJMMQQq8 "Merchant Onboarding")
 
 Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
 More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
