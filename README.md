@@ -44,14 +44,14 @@ Please refer to the user guide documentation in this repository for:
 * Steps on running of the system demo
 * Test Scenarios
 
-User Guide Download Link : <stub>
+[User Guide Download Link](https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding/blob/master/Documentation/NUS%20ISS%20Machine%20Reasoning%20Group%20Project%20User%20Guide.pdf)
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
 The Project Report can be downloaded from this repository. Direct Link can be found below.
 
-Project Report Download Link : <stub>
+[Project Report Download Link](https://github.com/gu-lijian/IRS-MR-2019-01-19-IS1PT-GRP-ai.Orz-MerchantOnboarding/blob/master/Documentation/NUS%20ISS%20Machine%20Reasoning%20Group%20Project%20Final%20Report.pdf)
 
 
 ---
